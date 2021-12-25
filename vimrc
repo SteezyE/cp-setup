@@ -17,3 +17,4 @@ noremap! <Up> <Nop>
 noremap! <Down> <Nop>
 noremap! <Left> <Nop>
 noremap! <Right> <Nop>
+command! -bar -nargs=1 S :new|:r <args>  
