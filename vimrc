@@ -9,6 +9,7 @@ let &t_TE = ""
 set makeprg=g++\ -std=c++17\ -I../\ -g\ -o\ %<\ %
 set clipboard=unnamedplus
 set number relativenumber
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
