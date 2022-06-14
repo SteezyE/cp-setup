@@ -6,6 +6,7 @@ let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 let &t_TI = ""
 let &t_TE = ""
+syntax on
 set makeprg=g++\ -std=c++17\ -I../\ -g\ -o\ %<\ %
 set clipboard=unnamedplus
 set number relativenumber
